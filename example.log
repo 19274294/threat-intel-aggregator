@@ -1,0 +1,7 @@
+Oct  5 10:11:12 host app[1234]: User login success from 10.1.2.3
+Oct  5 10:12:14 host proxy: GET http://malicious-example.test/payload
+Oct  5 10:13:20 host dns: query for suspicious-domain.test from 192.0.2.55
+Oct  6 13:00:00 host proxy: GET http://malicious-example.test/payload
+Oct  6 14:00:00 host proxy: GET http://test-malicious.com/payload
+
+Oct  6 14:20:00 host sshd[2222]: Failed password for invalid user from 203.0.113.45 port 54321 ssh2
