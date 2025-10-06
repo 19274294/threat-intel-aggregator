@@ -1,3 +1,25 @@
+# 🛡️ Threat Intelligence Feed Aggregator & Log Correlator (Python)
+
+Fetches IOCs (IPs, domains, hashes) from open-source threat feeds and correlates them with log files for detection and reporting.
+
+---
+
+## 🚀 Features
+- Fetches IOCs from:
+  - URLHaus (malicious URLs/domains)
+  - Feodo Tracker (IPs)
+  - MalwareBazaar (hashes)
+- Stores IOCs in SQLite with timestamps
+- Scans any log file for matches
+- Exports results to CSV
+
+---
+
+## 🧠 Skills Demonstrated
+Python | Threat Intelligence | Regex | SQLite | Log Analysis | Cybersecurity Automation
+
+
+
 # Threat Intelligence Feed Aggregator & Log Correlator (Python)
 
 ## Quickstart
